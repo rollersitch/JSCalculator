@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>JS Calculator</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+    
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="calculator">
+        <!-- TITLE -->
+        <div id="title" class="text-center">
+          <h5><b>ELECTRONIC CALCULATOR</b></h5>
+        </div>
+        <!-- ENTRY BOX -->
+        <div id="entrybox" class="text-right">
+          <div id="entry">
+            <p id="answer">0</p>
+          </div>
+          <div>
+            <p id="info">&gt</p>
+          </div>
+        </div>
+        <!-- BUTTONS -->
+        <div id="buttons">
+          <button class="red calc-control" value="ac">AC</button>
+          <button class="red" disabled="true" value="ce">CE</button>
+          <button class="calc-control" value="/">&divide;</button>
+          <button class="calc-control" value="*">x</button>
+          <button class="calc-control" value="7">7</button>
+          <button class="calc-control" value="8">8</button>
+          <button class="calc-control" value="9">9</button>
+          <button class="calc-control" value="-">-</button>
+          <button class="calc-control" value="4">4</button>
+          <button class="calc-control" value="5">5</button>
+          <button class="calc-control" value="6">6</button>
+          <button class="calc-control" value="+">+</button>
+          <button class="calc-control" value="1">1</button>
+          <button class="calc-control" value="2">2</button>
+          <button class="calc-control" value="3">3</button>
+          <button class="invisible">N</button>
+          <button class="calc-control" id="zeroButton" value="0">0</button>
+          <button value=".">.</button>
+          <button class="calc-control" id="equalButton" value="=">=</button>
+        </div>
+        <!-- end buttons -->
+        <div id="tester"></div>
+      </div>
+      <!-- end calculator -->
+    </div>
+    <!-- end container -->
+    <footer id="footer" class="text-center">
+      <div class="container">
+        Designed & Coded by
+        <a href="#" target="_blank">
+        Daniele Pipitone</a>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
